@@ -1,0 +1,29 @@
+-sudo dnf install git
+
+1-ssh-keygen -t rsa -b 4096 -C "felopateradel@yahoo.com"
+
+2-Copy the public key 
+cat ~/.ssh/id_rsa.pub
+
+3-Add the Key to GitHub
+
+4-ssh -T git@github.com
+
+5-sudo dnf install git
+
+6-Create a Repository on GitHub
+
+6-mkdir dir1
+cd dir1
+
+7-git init  git remote add origin git@github.com:FelopaterAdel/newrepo.git 
+
+8-git add .
+
+9-git commit -m "commit"
+
+10-git branch -M main  
+
+11-git push -u origin main 
+
+https://felopateradel.github.io/newrepo/
